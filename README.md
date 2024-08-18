@@ -10,19 +10,19 @@ This project demonstrates a Next Word Prediction model using TensorFlow and Kera
 
 **3.Model Architecture:** The model is built using a Sequential API with the following layers:
 
-    **Embedding Layer:** Converts word indices into dense vectors of fixed size.
+   **Embedding Layer:** Converts word indices into dense vectors of fixed size.
     
-    **Bidirectional LSTM:** Captures information from both directions in a sequence.
+   **Bidirectional LSTM:** Captures information from both directions in a sequence.
     
-    **Dense Layer:** Outputs a probability distribution over the entire vocabulary.
+   **Dense Layer:** Outputs a probability distribution over the entire vocabulary.
     
-    **Training:** The model is trained with categorical cross-entropy loss and Adam optimizer for 50 epochs.
+   **Training:** The model is trained with categorical cross-entropy loss and Adam optimizer for 50 epochs.
     
-    **Prediction:** After training, the model predicts the next words for a given seed text, generating coherent and contextually relevant text.
+   **Prediction:** After training, the model predicts the next words for a given seed text, generating coherent and contextually relevant text.
 
 **How to Use:**
 
-    **Dataset:** Ensure the dataset (medium_data.csv) is loaded and preprocessed.
+   **Dataset:** Ensure the dataset (medium_data.csv) is loaded and preprocessed.
     
    **Training:** Run the training code to fit the model on the input sequences.
    
