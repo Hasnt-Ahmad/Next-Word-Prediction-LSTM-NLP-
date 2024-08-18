@@ -4,7 +4,9 @@ This project demonstrates a Next Word Prediction model using TensorFlow and Kera
 
 **Key Features:**
  **1.Data Preprocessing:** The dataset is cleaned by removing unwanted characters and converting text to sequences.
+
 **2.Text Tokenization:** The Tokenizer class from Keras is used for converting words to sequences, and handling out-of-vocabulary words.
+
 **3.Model Architecture:** The model is built using a Sequential API with the following layers:
     **Embedding Layer:** Converts word indices into dense vectors of fixed size.
     **Bidirectional LSTM:** Captures information from both directions in a sequence.
