@@ -7,17 +7,27 @@ This project demonstrates a Next Word Prediction model using TensorFlow and Kera
 
 **2.Text Tokenization:** The Tokenizer class from Keras is used for converting words to sequences, and handling out-of-vocabulary words.
 
+
 **3.Model Architecture:** The model is built using a Sequential API with the following layers:
+
     **Embedding Layer:** Converts word indices into dense vectors of fixed size.
+    
     **Bidirectional LSTM:** Captures information from both directions in a sequence.
+    
     **Dense Layer:** Outputs a probability distribution over the entire vocabulary.
+    
     **Training:** The model is trained with categorical cross-entropy loss and Adam optimizer for 50 epochs.
+    
     **Prediction:** After training, the model predicts the next words for a given seed text, generating coherent and contextually relevant text.
 
 **How to Use:**
+
     **Dataset:** Ensure the dataset (medium_data.csv) is loaded and preprocessed.
-  *  *Training:** Run the training code to fit the model on the input sequences.
-    **Prediction:** Input a seed text to generate the next words using the trained model.
+    
+   **Training:** Run the training code to fit the model on the input sequences.
+   
+   **Prediction:** Input a seed text to generate the next words using the trained model.
+     
 **Dependencies:**
     **TensorFlow**
     **Pandas**
